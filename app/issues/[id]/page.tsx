@@ -14,8 +14,7 @@ const issue = await prisma.issue.findUnique({
     where: {id: parseInt(params.id)}
 });
 
- if(!issue)
-   notFound();
+ if(!issue) notFound();
 
   return (
     <div>
@@ -27,7 +26,6 @@ const issue = await prisma.issue.findUnique({
         <Card className='prose' mt="4">
         <ReactMarkdown>{issue.description}</ReactMarkdown>
         </Card>
-      
     </div>
   )
 }
