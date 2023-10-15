@@ -40,4 +40,6 @@ const issues = await prisma.issue.findMany();
   )
 }
 
+export const dynamic = 'force-dynamic';
+
 export default IssuesPage
