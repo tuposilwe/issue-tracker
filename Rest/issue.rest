@@ -1,0 +1,6 @@
+PATCH  http://localhost:3000/api/issues/7 
+
+Content-Type: application/json
+{
+    "title":"description"
+}
