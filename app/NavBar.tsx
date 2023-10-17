@@ -57,10 +57,11 @@ const NavBar = () => {
                 <DropdownMenu.Trigger>
                   <Avatar
                     src={session.user!.image!}
-                    fallback="T"
+                    fallback="?"
                     size="2"
                     radius="full"
                     className="cursor-pointer"
+                    referrerPolicy='no-referrer'
                   />
                 </DropdownMenu.Trigger>
                 <DropdownMenu.Content>
