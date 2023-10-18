@@ -1,0 +1,22 @@
+INSERT INTO  `issue-tracker`.`issue` (title, description, status, createdAt, updatedAt) VALUES
+('Bug in Login Page', 'Users are unable to log in. The login button is not working.', 'OPEN', '2023-10-01 10:00:00', '2023-10-01 10:00:00'),
+('Database Performance Issue', 'The database queries are running too slow. We need to optimize them.', 'IN_PROGRESS', '2023-10-02 14:30:00', '2023-10-02 14:30:00'),
+('Mobile App Crashes', 'The mobile app crashes frequently on Android devices.', 'OPEN', '2023-10-03 11:45:00', '2023-10-03 11:45:00'),
+('Website Security Vulnerability', 'There is a security vulnerability on the website that needs to be addressed.', 'IN_PROGRESS', '2023-10-04 16:20:00', '2023-10-04 16:20:00'),
+('Payment Gateway Integration', 'Integrate the new payment gateway for online transactions.', 'CLOSED', '2023-10-05 09:15:00', '2023-10-05 09:15:00'),
+('User Registration Issue', 'Users cannot complete the registration process successfully.', 'OPEN', '2023-10-06 13:10:00', '2023-10-06 13:10:00'),
+('Data Backup Failure', 'Scheduled data backups are failing, and data loss is a concern.', 'IN_PROGRESS', '2023-10-07 17:40:00', '2023-10-07 17:40:00'),
+('Missing Product Images', 'Product images are not displaying on the e-commerce website.', 'OPEN', '2023-10-08 08:25:00', '2023-10-08 08:25:00'),
+('Server Downtime', 'The server has been down for several hours, affecting website availability.', 'CLOSED', '2023-10-09 12:50:00', '2023-10-09 12:50:00'),
+('Email Delivery Delay', 'Users are experiencing delays in receiving confirmation emails.', 'OPEN', '2023-10-10 19:30:00', '2023-10-10 19:30:00'),
+('Software Update Issue', 'The latest software update is causing compatibility problems.', 'IN_PROGRESS', '2023-10-11 15:05:00', '2023-10-11 15:05:00'),
+('Broken Links on Website', 'There are broken links throughout the website that need fixing.', 'OPEN', '2023-10-12 07:55:00', '2023-10-12 07:55:00'),
+('Inventory Sync Problem', 'Inventory levels are not syncing correctly between the warehouse and the website.', 'IN_PROGRESS', '2023-10-13 18:00:00', '2023-10-13 18:00:00'),
+('Customer Support Ticketing', 'Implement a ticketing system for customer support requests.', 'CLOSED', '2023-10-14 10:40:00', '2023-10-14 10:40:00'),
+('Mobile App UI Update', 'The mobile app UI needs an overhaul to improve user experience.', 'OPEN', '2023-10-15 14:15:00', '2023-10-15 14:15:00'),
+('Website Search Functionality', 'The search feature on the website is not returning relevant results.', 'IN_PROGRESS', '2023-10-16 09:10:00', '2023-10-16 09:10:00'),
+('Password Reset Error', 'Users are encountering errors when trying to reset their passwords.', 'OPEN', '2023-10-17 16:50:00', '2023-10-17 16:50:00'),
+('Data Import Issue', 'Problems importing data into the system from external sources.', 'IN_PROGRESS', '2023-10-18 11:30:00', '2023-10-18 11:30:00'),
+('Billing System Integration', 'Integrate the billing system for streamlined invoicing.', 'CLOSED', '2023-10-19 07:20:00', '2023-10-19 07:20:00'),
+('Server Resource Exhaustion', 'The server is running out of resources due to high traffic.', 'OPEN', '2023-10-20 13:55:00', '2023-10-20 13:55:00');
+
