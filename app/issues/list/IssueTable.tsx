@@ -4,15 +4,14 @@ import NextLink from "next/link";
 import { ArrowUpIcon } from "@radix-ui/react-icons";
 import { Issue, Status } from "@prisma/client";
 
-export interface IssueQuery{
-    status: Status;
-    orderBy: keyof Issue;
-    page: string;
-
+export interface IssueQuery {
+  status: Status;
+  orderBy: keyof Issue;
+  page: string;
 }
 
 interface Props {
-  searchParams:IssueQuery;
+  searchParams: IssueQuery;
   issues: Issue[];
 }
 
